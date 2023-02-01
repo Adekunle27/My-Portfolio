@@ -1,11 +1,15 @@
+import mistake from "../public/Images/mistake.jpg";
+import context from "../public/Images/react-context-api.jpg";
+import css from "../public/Images/css.png";
+import node from "../public/Images/node-socket.png";
+
 const ARTICLE_DATA = [
   {
     title: "Getting started with React Context API",
     description:
       "React Context API is a way to share data between components in a React application wit...",
     link: "https://abdulmalik.hashnode.dev/getting-started-with-react-context-api",
-    imageUrl:
-      "https://i.ibb.co/1ZZ34qv/react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
+    imageUrl: context,
     type: ["article"],
   },
   {
@@ -13,21 +17,21 @@ const ARTICLE_DATA = [
     description:
       "This chat app will allow users to send messages to each other in real-time, and will also feat...",
     link: "https://abdulmalik.hashnode.dev/building-a-chat-app-with-nextjs-nodejs-and-socketio",
-    imageUrl: "https://i.ibb.co/1Xk8FPb/nodejs.png",
+    imageUrl: node,
     type: ["article"],
   },
   {
     title: "Some Very Common Mistakes to avoid when coding.",
     description: "Some Very Common Mistakes to avoid when coding.",
     link: "https://abdulmalik.hashnode.dev/some-very-common-mistakes-to-avoid-when-coding",
-    imageUrl: "https://i.ibb.co/Jd3fzqq/c-Skmb-DBGC.webp",
+    imageUrl: mistake,
     type: ["article"],
   },
   {
     title: "How CSS Position Sticky Really Works: Tips For Beginners.",
     description: "How CSS Position Sticky Really Works: Tips For Beginners.",
     link: "https://abdulmalik.hashnode.dev/how-css-position-sticky-really-works-tips-for-beginners",
-    imageUrl: "https://i.ibb.co/DW2ycqw/download-1.jpg",
+    imageUrl: css,
     type: ["article"],
   },
   {
@@ -100,21 +104,6 @@ const ARTICLE_DATA = [
     imageUrl:
       "https://i.ibb.co/1MQyX2F/Handicapped-Wheelchair-Accessible-Sticker.png",
     type: ["reading"],
-  },
-  {
-    title: "DevEd",
-    description: "",
-    link: "https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q",
-    imageUrl:
-      "https://i.ibb.co/3sKzk4K/Screen-Shot-2019-11-25-at-2-09-11-AM.png",
-    type: ["video"],
-  },
-  {
-    title: "Traversy",
-    description: "",
-    link: "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA",
-    imageUrl: "https://i.ibb.co/tXBtHdk/images.png",
-    type: ["video"],
   },
 ];
 

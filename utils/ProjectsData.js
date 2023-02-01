@@ -1,3 +1,9 @@
+import covid from "../public/Images/covid.png";
+import starwars from "../public/Images/starwars.png";
+import shopp from "../public/Images/shopp.gif";
+import Realestate from "../public/Images/Realestate.png";
+import Tiktak from "../public/Images/Capture.png";
+
 const PROJECTS_DATA = [
   {
     title: "Starwars Casts",
@@ -7,7 +13,7 @@ const PROJECTS_DATA = [
       "This is an applicatiom built with Nextjs, React e.t.c. that displays the list of starwars casts, It generates the data asynchronously from swapi.dev API with some advanced filtering functionalities.",
     link: "https://starwars-casts.web.app/",
     github: "https://github.com/Adekunle27/Starwars-Cast",
-    imageUrl: "https://i.ibb.co/4sdhsVp/starwars.png",
+    imageUrl: starwars,
     type: ["project", "open-source", "tools"],
     technologies: ["Typescript", "Rollup", "React", "Nextjs"],
   },
@@ -19,7 +25,7 @@ const PROJECTS_DATA = [
     about:
       "Shoprrr is an e-commerce platform catered towards giving the best and fast experience for customers to buy cotton products, we call it a frictionless process from start to finish.",
     link: "https://shoprrr.netlify.com",
-    imageUrl: "https://i.ibb.co/T0XwFsQ/Screen-Recording-2020-05-06-at-3.gif",
+    imageUrl: shopp,
     type: ["project"],
     technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
   },
@@ -32,7 +38,7 @@ const PROJECTS_DATA = [
     github: "https://github.com/Adekunle27/Covid-Tracker",
     about:
       "This Project tracks the various COVID Cases recorded in the countries of the world, The Technology used in this projects are React, Hooks, Charts.JS, Material UI and many more.",
-    imageUrl: "https://i.ibb.co/LQDW9NR/covid.png",
+    imageUrl: covid,
     type: ["open-source", "tools"],
     technologies: ["React", "ChartJS", "Material UI", "Javascript"],
   },
@@ -44,10 +50,23 @@ const PROJECTS_DATA = [
       "This is a Real estate app which has different functionality present in a Real estate website or app, It fetches data from Rapid API and displayed on the UI",
     link: "https://realtor.vercel.app/",
     github: "https://github.com/Adekunle27/Real-Estate",
-    imageUrl: "https://i.ibb.co/9VvzQ2t/estate.png",
+    imageUrl: Realestate,
     type: ["open-source", "tools"],
     technologies: ["React", "Redux", "Ant Design"],
   },
+  {
+    title: "Tick-Tac-Toe Game",
+    description:
+      "This is a Game application built with React,  It has a simple UI and it can be played with the exception of playing against an algorithm or against a friend.",
+    about:
+      "This is a Game application built with React,  It has a simple UI and it can be played with the exception of playing against an algorithm or against a friend.",
+    link: " https://my-ttt.netlify.app/",
+    github: "https://github.com/Adekunle27/Tic-tac-toe",
+    imageUrl: Tiktak,
+    type: ["open-source", "tools"],
+    technologies: ["React", "Context API", "Ant Design"],
+  },
+
   {
     title: "Truegiven",
     description: "Addressing current and future workforce needs.",

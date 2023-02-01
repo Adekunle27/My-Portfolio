@@ -27,6 +27,7 @@
   padding-top: 1rem;
   font-family: "Montserrat", sans-serif;
   font-family: "Outfit", sans-serif;
+  line-height: 1.5;
 }
 
 .article .p_first {
@@ -87,6 +88,7 @@
 
 .article2 p {
   padding: 1.5rem 1.5rem 1rem 0;
+  line-height: 1.5;
 }
 
 .article2 .lstyle {
@@ -102,4 +104,5 @@
   gap: 1rem;
   font-family: "Montserrat", sans-serif;
   font-family: "Outfit", sans-serif;
+  line-height: 1.5;
 }

@@ -49,3 +49,23 @@ a {
     background: black;
   }
 }
+
+input,
+textarea {
+  background: transparent;
+  margin-bottom: 2rem;
+  box-shadow: none;
+  resize: none;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+  border-radius: 6.5px;
+  width: 100%;
+}
+
+form {
+  width: 60%;
+}
