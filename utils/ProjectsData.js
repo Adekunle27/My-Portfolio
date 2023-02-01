@@ -1,8 +1,8 @@
 import covid from "../public/Images/covid.png";
-import starwars from "../public/Images/starwars.PNG";
+import starwars from "../public/Images/starwars.jpg";
 import shopp from "../public/Images/shopp.gif";
-import Realestate from "../public/Images/Realestate.PNG";
-import Tiktak from "../public/Images/Capture.PNG";
+import Realestate from "../public/Images/Realestate.jpg";
+import Tiktak from "../public/Images/Capture.jpg";
 
 const PROJECTS_DATA = [
   {
