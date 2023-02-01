@@ -1,14 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/About.module.css";
-import {
-  IconRight,
-  Twitter,
-  Facebook,
-  Linkedin,
-  Github,
-  Dribble,
-} from "../components/Icons";
 import Link from "next/link";
 
 const About = () => {

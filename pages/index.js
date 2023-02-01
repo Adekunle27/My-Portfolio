@@ -1,12 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Layout.module.css";
-import styled from "styled-components";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 import Layout from "../components/Layout";
-// import Layout, { PageWrapper } from "../components/Layout";
-// import FooterLink from "../components/Footer";
 
 function Home() {
   return (
