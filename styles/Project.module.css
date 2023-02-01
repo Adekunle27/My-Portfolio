@@ -1,0 +1,80 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.article {
+  margin-top: 15rem;
+  padding: 0 2rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.article h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: -1.1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.projects {
+  /* background-color: rgb(148, 142, 142); */
+  background-color: transparent;
+  border-radius: 50px;
+  border-color: 1px solid transparent;
+  transition: all 1.5s ease;
+}
+
+.p_head {
+  font-size: 1.5rem;
+  font-weight: 550;
+  letter-spacing: 0.9px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.projects__container:hover {
+  transition: all 1.5s ease;
+}
+.projects h2 {
+  font-size: 2.4rem;
+}
+
+.project__info {
+  padding: 2rem;
+}
+
+.project__info p {
+  padding: 1.2rem 0 2rem;
+  font-size: 0.9rem;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.btn__primary {
+  background-color: #fff;
+  color: black;
+  border-radius: 50px;
+  padding: 0.35rem 0.75rem 0.35rem 0.75rem;
+}
+
+.card:hover {
+  transition: all 1.2s ease-in-out;
+  scale: 0.9;
+}
+
+.article .p_link {
+  margin-top: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+}
