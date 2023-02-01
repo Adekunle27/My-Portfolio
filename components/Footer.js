@@ -41,7 +41,7 @@ const Footer = () => {
           className={styles.link}
           target="_blank"
           rel="noopener noreferrer"
-          href="https://linkedin.com/in/abdulmalik-adekunle"
+          href="https://web.facebook.com/malik.azeez.3114935"
           aria-label="Go To Abdulmalik Adekunle's Facebook Page"
           title="Facebook Page"
         >
