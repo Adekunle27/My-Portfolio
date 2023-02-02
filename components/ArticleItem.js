@@ -29,7 +29,7 @@ export const ArticleItem = ({ item }) => {
             )} */}
 
             <Link href={`${item.link}`} className={styles.btn__primary}>
-              Live
+              Read
             </Link>
           </div>
         </div>

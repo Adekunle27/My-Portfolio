@@ -54,16 +54,16 @@ const About = () => {
             </p>
 
             <ul className={styles.techlist}>
-              <li>React -</li>
-              <li>Next.Js -</li>
-              <li>Javascript -</li>
-              <li>Typescript -</li>
-              <li>NodeJs -</li>
-              <li>Express -</li>
-              <li>MongoDB -</li>
-              <li>CSS -</li>
-              <li>HTML -</li>
-              <li>TailwindCSS -</li>
+              <li>React </li>
+              <li>Next.Js </li>
+              <li>Javascript </li>
+              <li>Typescript </li>
+              <li>NodeJs </li>
+              <li>Express </li>
+              <li>MongoDB </li>
+              <li>CSS </li>
+              <li>HTML </li>
+              <li>TailwindCSS </li>
               <li>Gatsby </li>
             </ul>
           </article>

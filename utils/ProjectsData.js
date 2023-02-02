@@ -55,7 +55,7 @@ const PROJECTS_DATA = [
     technologies: ["React", "Redux", "Ant Design"],
   },
   {
-    title: "Tick-Tac-Toe Game",
+    title: "Tic-Tac-Toe Game",
     description:
       "This is a Game application built with React,  It has a simple UI and it can be played with the exception of playing against an algorithm or against a friend.",
     about:

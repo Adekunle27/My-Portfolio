@@ -1,56 +1,51 @@
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import styled from "styled-components";
-import styles from "../styles/Layout.module.css";
+import Image from "next/image";
+import React, { useState } from "react";
+import NavItem from "./NavItem";
 
+const MENU_LIST = [
+  { text: "Home", href: "/" },
+  { text: "About", href: "/about" },
+  { text: "Projects", href: "/projects" },
+  { text: "Articles", href: "/articles" },
+  { text: "Contact", href: "/contact" },
+];
 const Navbar = () => {
-  return (
-    <nav>
-      <div className={styles.container}>
-        <nav className={styles.nav}>
-          <div className={`${styles.container} ${styles.nav__container}`}>
-            <Link href="/">
-              <Image src="/malik.jpg" width="50" height="50" alt="Logo" />
-            </Link>
-            <ul className={styles.nav__menu}>
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/about">About</Link>
-              </li>
-              <li>
-                <Link href="/projects">Projects</Link>
-              </li>
-              <li>
-                <Link href="/articles">Articles</Link>
-              </li>
-              <li>
-                <Link href="/contact">Contact</Link>
-              </li>
-              {/* <Link href="/contact" legacyBehavior>
-              <a aria-label="Go to Contact Page">
-                <button type="button" tabIndex="-1">
-                  Contact
-                </button>
-              </a>
-              <Link/> */}
-            </ul>
+  const [navActive, setNavActive] = useState(null);
+  const [activeIdx, setActiveIdx] = useState(-1);
 
-            <button id="open-menu">
-              <i className="uil uil-bars"></i>
-            </button>
-            <button id="close-menu">
-              <i className="uil uil-multiply"></i>
-            </button>
+  return (
+    <>
+      <header className="headnavstyle">
+        <nav className={`nav`}>
+          <Link href="/">
+            <Image src="/malik.jpg" width="50" height="50" alt="Logo" />
+          </Link>
+          <div
+            onClick={() => setNavActive(!navActive)}
+            className={`nav__menu-bar`}
+          >
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div className={`${navActive ? "active" : ""} nav__menu-list`}>
+            {MENU_LIST.map((menu, idx) => (
+              <div
+                onClick={() => {
+                  setActiveIdx(idx);
+                  setNavActive(false);
+                }}
+                key={menu.text}
+              >
+                <NavItem active={activeIdx === idx} {...menu} />
+              </div>
+            ))}
           </div>
         </nav>
-      </div>
-    </nav>
+      </header>
+    </>
   );
 };
-
-const Layout = styled.div``;
 
 export default Navbar;
