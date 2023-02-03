@@ -8,9 +8,9 @@ const PROJECTS_DATA = [
   {
     title: "Starwars Casts",
     about:
-      "This is an applicatiom built with Nextjs, React e.t.c. that displays the list of starwars casts, It generates the data asynchronously from swapi.dev API with some advanced filtering functionalities.",
+      "This is an application built with Nextjs, React e.t.c. that displays the list of starwars casts, It generates the data asynchronously from swapi.dev API with some advanced filtering functionalities.",
     description:
-      "This is an applicatiom built with Nextjs, React e.t.c. that displays the list of starwars casts, It generates the data asynchronously from swapi.dev API with some advanced filtering functionalities.",
+      "This is an application built with Nextjs, React e.t.c. that displays the list of starwars casts, It generates the data asynchronously from swapi.dev API with some advanced filtering functionalities.",
     link: "https://starwars-casts.web.app/",
     github: "https://github.com/Adekunle27/Starwars-Cast",
     imageUrl: starwars,
