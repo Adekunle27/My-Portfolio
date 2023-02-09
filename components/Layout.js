@@ -14,7 +14,7 @@ const Layout = ({ title, keywords, description, children }) => {
         <link rel="icon" href="/malik.jpg" />
       </Head>
       <Navbar />
-      <div className={styles.container}>{children}</div>
+      <div className={`${styles.container} ${styles.dark}`}>{children}</div>
       <Footer />
     </div>
   );

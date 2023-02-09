@@ -1,9 +1,20 @@
 import Link from "next/link";
-import React from "react";
+import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 import styles from "../styles/Contact.module.css";
 
-const contact = () => {
+import { useForm, ValidationError } from "@formspree/react";
+
+const Contact = () => {
+  const [state, handleSubmit] = useForm("xoqzedvg");
+
+  const router = useRouter();
+  const handleClick = () => {
+    setTimeout(() => {
+      router.push("/sent");
+    }, 3000);
+  };
+
   return (
     <Layout
       title="Abdulmalik Adekunle | Contact"
@@ -19,7 +30,7 @@ const contact = () => {
               <b>malikabdulazeez27@gmail.com</b>
             </p>
             <br />
-            <form method="POST" data-netlify="true" action="/sent">
+            <form method="POST" data-netlify="true" onSubmit={handleSubmit}>
               <div className="fields">
                 <div className="field half">
                   <input
@@ -30,6 +41,11 @@ const contact = () => {
                     placeholder="Name"
                     aria-required="true"
                     required
+                  />
+                  <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
                   />
                 </div>
                 <div className="field half">
@@ -42,6 +58,11 @@ const contact = () => {
                     aria-required="true"
                     required
                   />
+                  <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
+                  />
                 </div>
                 <div className="field">
                   <textarea
@@ -53,11 +74,23 @@ const contact = () => {
                     aria-required="true"
                     required
                   />
+                  <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
+                  />
                 </div>
               </div>
-              <a className={styles.btn} type="submit" aria-label="Send Message">
-                Send Message
-              </a>
+              <button type="submit" disabled={state.submitting}>
+                <a
+                  className={styles.btn}
+                  type="submit"
+                  aria-label="Send Message"
+                  onClick={handleClick}
+                >
+                  Send Message
+                </a>
+              </button>
             </form>
             <Link href="/">
               <p className={styles.p_link}>Go back home &rarr;</p>
@@ -69,4 +102,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

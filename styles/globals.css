@@ -23,7 +23,7 @@ a {
   list-style: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -31,7 +31,7 @@ a {
     color: white;
     background: black;
   }
-}
+} */
 
 input,
 textarea {
@@ -47,6 +47,7 @@ textarea {
   font-family: "Outfit", sans-serif;
   border-radius: 6.5px;
   width: 100%;
+  color: white;
 }
 
 form {
