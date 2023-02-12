@@ -3,6 +3,7 @@ import starwars from "../public/Images/starwars.jpg";
 import shopp from "../public/Images/shopp.gif";
 import Realestate from "../public/Images/Realestate.jpg";
 import Tiktak from "../public/Images/Capture.jpg";
+import netflix from "../public/Images/netflix.jpg";
 
 const PROJECTS_DATA = [
   {
@@ -26,6 +27,17 @@ const PROJECTS_DATA = [
       "Shoprrr is an e-commerce platform catered towards giving the best and fast experience for customers to buy cotton products, we call it a frictionless process from start to finish.",
     link: "https://shoprrr.netlify.com",
     imageUrl: shopp,
+    type: ["project"],
+    technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
+  },
+  {
+    title: "Netflix Clone",
+    description: "A Clone of Netflix using React, Context API...",
+    github: "https://github.com/Adekunle27/Netflix-clone",
+    about:
+      "A Clone of Netflix using React, Context API which fetches data from TMDB API and It also has a login page which authenticates users with Firebase Authentication. It also has a payment page which uses Stripe API for payment.",
+    link: "https://netflixclone-56432.web.app/",
+    imageUrl: netflix,
     type: ["project"],
     technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
   },
