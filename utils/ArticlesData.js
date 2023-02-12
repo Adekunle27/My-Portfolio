@@ -2,12 +2,15 @@ import mistake from "../public/Images/mistake.jpg";
 import context from "../public/Images/react-context-api.jpg";
 import css from "../public/Images/css.png";
 import node from "../public/Images/node-socket.png";
+import reactimg from "../public/Images/React.jpg";
+import pipeline from "../public/Images/pipeline.png";
+import microfrontend from "../public/Images/microfrontend.jpg";
 
 const ARTICLE_DATA = [
   {
     title: "Getting started with React Context API",
     description:
-      "React Context API is a way to share data between components in a React application wit...",
+      "Quick Walkthrough · React Context API is a way to share data between components in a React application without having to pass props down through multiple...",
     link: "https://abdulmalik.hashnode.dev/getting-started-with-react-context-api",
     imageUrl: context,
     type: ["article"],
@@ -15,21 +18,48 @@ const ARTICLE_DATA = [
   {
     title: "Building a Chat App with Next.js, Node.js and Socket.io",
     description:
-      "This chat app will allow users to send messages to each other in real-time, and will also feat...",
+      "In this tutorial, we will be building a chat app using Next.js, a popular framework for building server-rendered React applications. This chat app...",
     link: "https://abdulmalik.hashnode.dev/building-a-chat-app-with-nextjs-nodejs-and-socketio",
     imageUrl: node,
     type: ["article"],
   },
   {
     title: "Some Very Common Mistakes to avoid when coding.",
-    description: "Some Very Common Mistakes to avoid when coding.",
+    description:
+      "Mistake 1. Bad Variable Names Variables are essential in programming. Use them as they are intended. It will not make your life easier but also make...",
     link: "https://abdulmalik.hashnode.dev/some-very-common-mistakes-to-avoid-when-coding",
     imageUrl: mistake,
     type: ["article"],
   },
   {
+    title: "Continuous deployment of application using CI/CD.",
+    description:
+      "Continuous Deployment is a software development practice that involves automatically releasing every change made to a codebase to production. This is....",
+    link: "https://abdulmalik.hashnode.dev/continuous-deployment-of-application-using-cicd",
+    imageUrl: pipeline,
+    type: ["article"],
+  },
+  {
+    title: "Optimizing your web app with Micro frontend architecture.",
+    description:
+      "In today's fast-paced world, the web has become an essential part of our lives. Web applications have come a long way from simple HTML pages to...",
+    link: "https://abdulmalik.hashnode.dev/optimizing-your-web-app-with-micro-frontend-architecture",
+    imageUrl: microfrontend,
+    type: ["article"],
+  },
+  {
+    title:
+      "React: Advanced Techniques for crafting high-performance components.",
+    description:
+      "React is a popular JavaScript library used for building user interfaces and creating reusable components. While it's relatively easy to get started...",
+    link: "https://abdulmalik.hashnode.dev/react-advanced-techniques-for-crafting-high-performance-components",
+    imageUrl: reactimg,
+    type: ["article"],
+  },
+  {
     title: "How CSS Position Sticky Really Works: Tips For Beginners.",
-    description: "How CSS Position Sticky Really Works: Tips For Beginners.",
+    description:
+      "If you just started learning HTML/CSS, you can easily get caught by the outstanding improvements that we get every day, like flexbox or grid... or a...    ",
     link: "https://abdulmalik.hashnode.dev/how-css-position-sticky-really-works-tips-for-beginners",
     imageUrl: css,
     type: ["article"],
@@ -77,7 +107,7 @@ const ARTICLE_DATA = [
   },
   {
     title: "Don’t be a Junior Developer: The Roadmap",
-    description: "",
+    description: "Don’t be a Junior Developer: The Roadmap",
     link: "https://zerotomastery.io/blog/dont-be-a-junior-developer-the-roadmap",
     imageUrl: "https://i.ibb.co/t2wy0Qg/279547.jpg",
     type: ["reading"],
@@ -99,7 +129,7 @@ const ARTICLE_DATA = [
   },
   {
     title: "Usability & Web Accessibility",
-    description: "",
+    description: "Usability & Web Accessibility",
     link: "https://usability.yale.edu/web-accessibility/articles",
     imageUrl:
       "https://i.ibb.co/1MQyX2F/Handicapped-Wheelchair-Accessible-Sticker.png",

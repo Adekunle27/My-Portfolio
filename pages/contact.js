@@ -9,10 +9,9 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xoqzedvg");
 
   const router = useRouter();
+
   const handleClick = () => {
-    setTimeout(() => {
-      router.push("/sent");
-    }, 3000);
+    router.replace("/sent");
   };
 
   return (
