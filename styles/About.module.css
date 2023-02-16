@@ -108,6 +108,7 @@
     font-family: "Montserrat", sans-serif;
     font-family: "Outfit", sans-serif;
     line-height: 1.5;
+    color: #fff;
   }
 }
 @media screen and (min-width: 768px) {
@@ -199,6 +200,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #fff;
   }
 
   .article2 p {
@@ -220,5 +222,6 @@
     font-family: "Montserrat", sans-serif;
     font-family: "Outfit", sans-serif;
     line-height: 1.5;
+    color: #fff;
   }
 }

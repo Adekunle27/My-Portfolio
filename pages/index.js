@@ -18,12 +18,14 @@ function Home() {
               </h1>
               <p>
                 {" "}
-                Frontend developer, Software Engineer and Javascript engineer,{" "}
-                enthusiast, practicing minimalist, and in search of flow.
+                Frontend software engineer and technical writer passionate about
+                creating dynamic, interactive and engaging web applications that
+                bring value to businesses and their customers. With expertise in
+                React, Next.js, Javascript, Typescript, Nodejs, CSS, HTML e.t.c.
               </p>
               <p>
-                Working with my hands to make magic happen on the internet. View
-                my{" "}
+                I&apos;m always on the lookout for exciting new technologies to
+                explore and incorporate into my work, you can View my{" "}
                 <Link href="/projects" className={styles.links}>
                   Projects
                 </Link>
