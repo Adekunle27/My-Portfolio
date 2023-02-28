@@ -4,6 +4,14 @@ import React from "react";
 import Layout from "../components/Layout";
 
 function Home() {
+  const copyText = () => {
+    const textField = document.createElement("textarea");
+    textField.innerText = "malikabdulazeez27@gmail.com";
+    document.body.appendChild(textField);
+    textField.select();
+    document.execCommand("copy");
+    textField.remove();
+  };
   return (
     <div>
       <Layout>
@@ -41,6 +49,9 @@ function Home() {
                 <Link
                   href={`mailto:malikabdulazeez27@gmail.com`}
                   className={styles.links}
+                  style={{ cursor: "crosshair" }}
+                  title="Copy to clipboard"
+                  onClick={copyText}
                 >
                   malikabdulazeez27@gmail.com
                 </Link>

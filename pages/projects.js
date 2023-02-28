@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/Project.module.css";
 import { ProjectItem } from "../components/ProjectItem";
@@ -6,6 +6,18 @@ import projectsData from "../utils/ProjectsData";
 import Link from "next/link";
 
 const Projects = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const [filter, setFilter] = useState("all");
+
+  const handleClick = (e) => {
+    setFilter(e.target.value);
+  };
+
+  const filteredItems =
+    filter === "all"
+      ? projectsData
+      : projectsData.filter((item) => item.type === filter);
+
   return (
     <Layout
       title="Abdulmalik Adekunle | Projects"
@@ -16,8 +28,22 @@ const Projects = () => {
         <div className={styles.container}>
           <article className={styles.article}>
             <h1 className="intro__text">Projects.</h1> <br />
+            <div className={styles.filter__links}>
+              <button value="all" onClick={handleClick}>
+                {" "}
+                All
+              </button>
+              <button value="projects" onClick={handleClick}>
+                {" "}
+                My Projects
+              </button>
+              <button value="others" onClick={handleClick}>
+                {" "}
+                Others
+              </button>
+            </div>
             <div className={styles.projects__container}>
-              {projectsData.map((item, index) => (
+              {filteredItems.map((item, index) => (
                 <ProjectItem key={index} index={index} item={item} />
               ))}
             </div>

@@ -16,11 +16,6 @@ export default function Document() {
         <meta name="msapplication-config" content="/icons/browserconfig.xml" />
         <meta name="twitter:site" content="@Localhost_5000" />
         <meta name="twitter:image" content="/me.jpg" />
-        <link
-          rel="preload"
-          as="style"
-          href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap"
-        />
         <link rel="manifest" href="/manifest.json" />
         <meta name="robots" content="index, nofollow" />
         <meta property="og:title" content="Abdulmalik Adekunle" />

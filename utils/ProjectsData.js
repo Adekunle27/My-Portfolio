@@ -15,21 +15,10 @@ const PROJECTS_DATA = [
     link: "https://starwars-casts.web.app/",
     github: "https://github.com/Adekunle27/Starwars-Cast",
     imageUrl: starwars,
-    type: ["project", "open-source", "tools"],
+    type: "projects",
     technologies: ["Typescript", "Rollup", "React", "Nextjs"],
   },
 
-  {
-    title: "Shopp",
-    description: "An E-commerce Application For Buying Cotton Products.",
-    github: "https://github.com/Adekunle27/shopp",
-    about:
-      "Shoprrr is an e-commerce platform catered towards giving the best and fast experience for customers to buy cotton products, we call it a frictionless process from start to finish.",
-    link: "https://shoprrr.netlify.com",
-    imageUrl: shopp,
-    type: ["project"],
-    technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
-  },
   {
     title: "Netflix Clone",
     description: "A Clone of Netflix using React, Context API...",
@@ -38,10 +27,20 @@ const PROJECTS_DATA = [
       "A Clone of Netflix using React, Context API which fetches data from TMDB API and It also has a login page which authenticates users with Firebase Authentication. It also has a payment page which uses Stripe API for payment.",
     link: "https://netflixclone-56432.web.app/",
     imageUrl: netflix,
-    type: ["project"],
+    type: "projects",
     technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
   },
-
+  {
+    title: "Shopp",
+    description: "An E-commerce Application For Buying Cotton Products.",
+    github: "https://github.com/Adekunle27/shopp",
+    about:
+      "Shoprrr is an e-commerce platform catered towards giving the best and fast experience for customers to buy cotton products, we call it a frictionless process from start to finish.",
+    link: "https://shoprrr.netlify.com",
+    imageUrl: shopp,
+    type: "projects",
+    technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
+  },
   {
     title: "Covid-19 Tracker",
     description:
@@ -51,7 +50,7 @@ const PROJECTS_DATA = [
     about:
       "This Project tracks the various COVID Cases recorded in the countries of the world, The Technology used in this projects are React, Hooks, Charts.JS, Material UI and many more.",
     imageUrl: covid,
-    type: ["open-source", "tools"],
+    type: "projects",
     technologies: ["React", "ChartJS", "Material UI", "Javascript"],
   },
   {
@@ -63,7 +62,7 @@ const PROJECTS_DATA = [
     link: "https://realtor.vercel.app/",
     github: "https://github.com/Adekunle27/Real-Estate",
     imageUrl: Realestate,
-    type: ["open-source", "tools"],
+    type: "projects",
     technologies: ["React", "Redux", "Ant Design"],
   },
   {
@@ -75,7 +74,7 @@ const PROJECTS_DATA = [
     link: " https://my-ttt.netlify.app/",
     github: "https://github.com/Adekunle27/Tic-tac-toe",
     imageUrl: Tiktak,
-    type: ["open-source", "tools"],
+    type: "projects",
     technologies: ["React", "Context API", "Ant Design"],
   },
 
@@ -87,7 +86,7 @@ const PROJECTS_DATA = [
     link: "https://truegiven.com",
     imageUrl:
       "https://i.ibb.co/LnCz8Vx/Screen-Shot-2019-11-23-at-2-24-07-PM.png",
-    type: ["project"],
+    type: "others",
     technologies: ["HTML", "CSS", "Javascript", "Compiled HTML"],
   },
   {
@@ -97,7 +96,7 @@ const PROJECTS_DATA = [
       "Freespace can be utilized as your own safe place where you can freely un-conceal your thoughts and emotions without any apprehensions. ",
     link: "https://freespaace.com",
     imageUrl: "https://i.ibb.co/q5ZDjLd/image.png",
-    type: ["others", "project"],
+    type: "others",
     technologies: ["React", "Redux", "Javascript", "Firebase"],
   },
   {
@@ -108,7 +107,7 @@ const PROJECTS_DATA = [
     link: "https://liveizy.com",
     imageUrl:
       "https://i.ibb.co/PxwbV5m/Screen-Shot-2019-11-24-at-11-36-52-PM-1.png",
-    type: ["others", "project"],
+    type: "others",
     technologies: ["HTML", "11ty", "Javascript", "CSS & Sass"],
   },
   {
@@ -118,7 +117,7 @@ const PROJECTS_DATA = [
       "Empty Carafes is a content platform which allows readers to engage in a wide range of dynamic and innovative ideas expressed through different art forms.",
     link: "https://emptycarafes.io",
     imageUrl: "https://i.ibb.co/0CLmWNj/Dribbble-shot-HD-ss-1.png",
-    type: ["others", "project"],
+    type: "others",
     technologies: ["HTML", "11ty", "Javascript", "CSS & Sass", "A11y"],
   },
 
@@ -131,7 +130,7 @@ const PROJECTS_DATA = [
     link: "https://70shops.com",
     imageUrl:
       "https://i.ibb.co/q939Wxd/Screen-Shot-2019-11-23-at-2-27-08-PM.png",
-    type: ["others", "project"],
+    type: "others",
     technologies: ["HTML", "11ty", "Javascript", "CSS & Sass", "A11y"],
   },
 ];
