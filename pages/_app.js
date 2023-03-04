@@ -4,9 +4,11 @@ import { PageTransition } from "next-page-transitions";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <PageTransition timeout={200} classNames="page-transition">
-        <Component {...pageProps} />
-      </PageTransition>
+      <div className="dark">
+        <PageTransition timeout={200} classNames="page-transition">
+          <Component {...pageProps} />
+        </PageTransition>
+      </div>
 
       <style jsx global>{`
         .page-transition-enter {
@@ -26,7 +28,6 @@ function MyApp({ Component, pageProps }) {
       `}</style>
     </>
   );
-  // return  <Component {...pageProps} />;
 }
 
 export default MyApp;

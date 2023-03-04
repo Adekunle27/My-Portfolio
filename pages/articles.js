@@ -5,6 +5,7 @@ import styles from "../styles/Articles.module.css";
 import { ArticleItem } from "../components/ArticleItem";
 import ArticlesData from "../utils/ArticlesData";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const articles = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -25,7 +26,12 @@ const articles = () => {
       description="Abdulmalik Adekunle's Articles Page, Frontend Developer, Software Engineer"
       keywords="Frontend, Abdulmalik Adekunle"
     >
-      <div className={styles.container}>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2.0 }}
+        className={styles.container}
+      >
         <div className={styles.container}>
           <article className={styles.article}>
             <h1 className="intro__text">Articles & Reads.</h1> <br />
@@ -55,7 +61,7 @@ const articles = () => {
             </Link>
           </article>
         </div>
-      </div>
+      </motion.div>
     </Layout>
   );
 };

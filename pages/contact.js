@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 import styles from "../styles/Contact.module.css";
+import { motion } from "framer-motion";
 
 import { useForm, ValidationError } from "@formspree/react";
 
@@ -20,7 +21,12 @@ const Contact = () => {
       description="Abdulmalik Adekunle's Contact Page, Frontend Developer, Software Engineer"
       keywords="Frontend, Abdulmalik Adekunle"
     >
-      <div className={styles.container}>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2.0 }}
+        className={styles.container}
+      >
         <div className={styles.container}>
           <article className={styles.article}>
             <h1 className="intro__text">Contact Me.</h1> <br />
@@ -96,7 +102,7 @@ const Contact = () => {
             </Link>
           </article>
         </div>
-      </div>
+      </motion.div>
     </Layout>
   );
 };

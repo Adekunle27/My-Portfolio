@@ -1,3 +1,20 @@
+:root {
+  --dark-color: black;
+  --light-color: white;
+  /* --bg-color: #f9f9f9;
+  --text-color: #333; */
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--light-color);
+  transform-origin: 0%;
+}
+
 html,
 body {
   padding: 0;
@@ -6,8 +23,13 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-family: "Montserrat", sans-serif;
   font-family: "Outfit", sans-serif;
-  background: black;
-  color: #fff;
+  background: var(--dark-color);
+  color: var(--light-color);
+}
+
+html[data-theme="dark"] body {
+  background: var(--dark-color);
+  color: var(--light-color);
 }
 
 a {

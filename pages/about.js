@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/About.module.css";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -10,7 +11,12 @@ const About = () => {
       description="Abdulmalik Adekunle's About Page, Frontend Developer, Software Engineer"
       keywords="Frontend, Abdulmalik Adekunle"
     >
-      <div className={styles.container}>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 2.0 }}
+        className={styles.container}
+      >
         <div className={styles.container}>
           <article className={styles.article}>
             <h1 className="intro__text">About Me.</h1> <br />
@@ -192,7 +198,7 @@ const About = () => {
             </Link>
           </article>
         </div>
-      </div>
+      </motion.div>
     </Layout>
   );
 };

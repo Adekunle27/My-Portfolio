@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import styles from "../styles/Layout.module.css";
 import Navbar from "./Navbar";

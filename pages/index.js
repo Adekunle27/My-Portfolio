@@ -2,6 +2,7 @@ import styles from "../styles/Layout.module.css";
 import Link from "next/link";
 import React from "react";
 import Layout from "../components/Layout";
+import { motion } from "framer-motion";
 
 function Home() {
   const copyText = () => {
@@ -15,14 +16,19 @@ function Home() {
   return (
     <div>
       <Layout>
-        <div className={styles.container}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 2.0 }}
+          className={styles.container}
+        >
           <div className={styles.container}>
             <article className={styles.article}>
               <h1
                 data-text="I'm Abdulmalik Adekunle"
                 className={styles.intro__text}
               >
-                I&apos;m Abdulmalik Adekunle
+                <code> I&apos;m Abdulmalik Adekunle</code>
               </h1>
               <p>
                 {" "}
@@ -62,7 +68,7 @@ function Home() {
               </Link>
             </article>
           </div>
-        </div>
+        </motion.div>
       </Layout>
     </div>
   );
