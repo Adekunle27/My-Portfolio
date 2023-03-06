@@ -31,7 +31,7 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <ClickAwayListener onClickAway={() => setNavActive(null)}>
+    <ClickAwayListener onClickAway={() => setNavActive(!navActive)}>
       <>
         <header className="headnavstyle">
           <motion.nav
