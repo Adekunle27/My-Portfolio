@@ -28,7 +28,11 @@ export const ArticleItem = ({ item }) => {
               </Link>
             )} */}
 
-            <Link href={`${item.link}`} className={styles.btn__primary}>
+            <Link
+              href={`${item.link}`}
+              target="_blank"
+              className={styles.btn__primary}
+            >
               Read
             </Link>
           </div>

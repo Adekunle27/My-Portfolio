@@ -23,12 +23,20 @@ export const ProjectItem = ({ item }) => {
           <p>{item.about}</p>
           <div className={styles.links}>
             {item.github && (
-              <Link href={`${item.github}`} className={styles.btn__primary}>
+              <Link
+                href={`${item.github}`}
+                target="_blank"
+                className={styles.btn__primary}
+              >
                 Code{" "}
               </Link>
             )}
 
-            <Link href={`${item.link}`} className={styles.btn__primary}>
+            <Link
+              href={`${item.link}`}
+              target="_blank"
+              className={styles.btn__primary}
+            >
               Live
             </Link>
           </div>

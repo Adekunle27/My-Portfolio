@@ -4,6 +4,10 @@ import shopp from "../public/Images/shopp.gif";
 import Realestate from "../public/Images/Realestate.jpg";
 import Tiktak from "../public/Images/Capture.jpg";
 import netflix from "../public/Images/netflix.jpg";
+import quiz from "../public/Images/quiz.png";
+import invoice from "../public/Images/invoice.png";
+import event from "../public/Images/event.png";
+import crypto from "../public/Images/cryptotracker.png";
 
 const PROJECTS_DATA = [
   {
@@ -42,6 +46,17 @@ const PROJECTS_DATA = [
     technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
   },
   {
+    title: "Quizly",
+    description: "A fun Quiz Application with different option.",
+    github: "https://github.com/Adekunle27/Quizly",
+    about:
+      "This is a quiz application built with React and TailwindCSS. You can select the category of questions you want to answer, the number of questions and the difficulty level of the questions. It also has a theme toggler which is enabled by TailwindCSS.  ",
+    link: "https://quizly-psi.vercel.app/",
+    imageUrl: quiz,
+    type: "projects",
+    technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
+  },
+  {
     title: "Covid-19 Tracker",
     description:
       "This Project tracks the various COVID Cases recorded in the countries of the world",
@@ -50,6 +65,18 @@ const PROJECTS_DATA = [
     about:
       "This Project tracks the various COVID Cases recorded in the countries of the world, The Technology used in this projects are React, Hooks, Charts.JS, Material UI and many more.",
     imageUrl: covid,
+    type: "projects",
+    technologies: ["React", "ChartJS", "Material UI", "Javascript"],
+  },
+  {
+    title: "Cryptocurrency Tracker",
+    description:
+      "This application is built with ReactJs, ChartJS, Material UI to track the price and other",
+    link: "https://crypto-hunter.netlify.app/",
+    github: "https://github.com/Adekunle27/Crypto-Tracker",
+    about:
+      "This application is built with ReactJs, ChartJS, Material UI to track the price and other information about the different cryptocurrencies.",
+    imageUrl: crypto,
     type: "projects",
     technologies: ["React", "ChartJS", "Material UI", "Javascript"],
   },
@@ -66,14 +93,38 @@ const PROJECTS_DATA = [
     technologies: ["React", "Redux", "Ant Design"],
   },
   {
+    title: "Invoice Generator",
+    description:
+      "An Invoice creator project built with React. Add itemized items, configure quantity, prices, tax rates and discounts.",
+    about:
+      "An Invoice creator project built with React. Add itemized items, configure quantity, prices, tax rates and discounts. Download Invoice as PDFs to your device. Uses jspdf-react to capture the data from the modal and covert it from canvas -> pdf.",
+    link: "https://invoice-generator-react.netlify.app/",
+    github: "https://github.com/Adekunle27/Invoice-Generator",
+    imageUrl: invoice,
+    type: "projects",
+    technologies: ["React", "Redux", "Ant Design"],
+  },
+  {
     title: "Tic-Tac-Toe Game",
     description:
       "This is a Game application built with React,  It has a simple UI and it can be played with the exception of playing against an algorithm or against a friend.",
     about:
       "This is a Game application built with React,  It has a simple UI and it can be played with the exception of playing against an algorithm or against a friend.",
-    link: " https://my-ttt.netlify.app/",
+    link: "https://my-ttt.netlify.app/",
     github: "https://github.com/Adekunle27/Tic-tac-toe",
     imageUrl: Tiktak,
+    type: "projects",
+    technologies: ["React", "Context API", "Ant Design"],
+  },
+  {
+    title: "DJ Events",
+    description:
+      "This is an event management website built with Nextjs to list DJ and other musical events happening around.",
+    about:
+      "This is an event management website built with Nextjs to list DJ and other musical events happening around.",
+    link: "https://djeventsfrontend.vercel.app/",
+    github: "https://github.com/Adekunle27/Dj-Events",
+    imageUrl: event,
     type: "projects",
     technologies: ["React", "Context API", "Ant Design"],
   },
