@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import styles from "../styles/Footer.module.css";
 
@@ -5,7 +6,12 @@ import { IconRight, Twitter, Facebook, Linkedin, Github } from "./Icons";
 
 const Footer = () => {
   return (
-    <div className={styles.container}>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1.5 }}
+      className={styles.container}
+    >
       <footer className={styles.footer}>
         <a
           className={styles.link}
@@ -48,7 +54,7 @@ const Footer = () => {
           <Facebook />
         </a>
       </footer>
-    </div>
+    </motion.div>
   );
 };
 

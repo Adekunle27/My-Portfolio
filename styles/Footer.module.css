@@ -23,7 +23,7 @@
   }
 
   .link {
-    background-color: white;
+    background-color: var(--color-primary);
     padding: 0.8rem;
   }
 }

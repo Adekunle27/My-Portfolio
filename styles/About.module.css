@@ -12,7 +12,7 @@
   }
 
   .article h1 {
-    color: #fff;
+    /* color: #fff; */
     font-size: 3rem;
     font-weight: 900;
     letter-spacing: -0.5px;
@@ -21,7 +21,7 @@
   }
 
   .article p {
-    color: #fff;
+    /* color: #fff; */
     font-size: 0.9rem;
     font-weight: 500;
     letter-spacing: 0.9px;
@@ -60,7 +60,7 @@
   } */
 
   .article2 p {
-    color: #fff;
+    /* color: #fff; */
     font-size: 0.9rem;
     font-weight: 500;
     letter-spacing: 0.9px;
@@ -108,7 +108,7 @@
     font-family: "Montserrat", sans-serif;
     font-family: "Outfit", sans-serif;
     line-height: 1.5;
-    color: #fff;
+    /* color: #fff; */
   }
 }
 @media screen and (min-width: 768px) {
@@ -126,7 +126,7 @@
   }
 
   .article h1 {
-    color: #fff;
+    /* color: #fff; */
     font-size: 4rem;
     font-weight: 900;
     letter-spacing: -1.1px;
@@ -135,7 +135,7 @@
   }
 
   .article p {
-    color: #fff;
+    /* color: #fff; */
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0.9px;
@@ -166,7 +166,7 @@
   }
 
   .article2 h2 {
-    color: #fff;
+    /* color: #fff; */
     font-size: 4rem;
     font-weight: 900;
     letter-spacing: -1.1px;
@@ -175,7 +175,7 @@
   }
 
   .article2 p {
-    color: #fff;
+    /* color: #fff; */
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0.9px;
@@ -200,7 +200,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    /* color: #fff; */
   }
 
   .article2 p {
@@ -222,6 +222,6 @@
     font-family: "Montserrat", sans-serif;
     font-family: "Outfit", sans-serif;
     line-height: 1.5;
-    color: #fff;
+    /* color: #fff; */
   }
 }

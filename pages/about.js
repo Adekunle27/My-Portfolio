@@ -64,12 +64,14 @@ const About = () => {
               <li>Next.Js </li>
               <li>Javascript </li>
               <li>Typescript </li>
+              <li>React Native </li>
+              <li>Vue </li>
+              <li>Nuxt </li>
               <li>NodeJs </li>
               <li>Express </li>
               <li>MongoDB </li>
               <li>CSS </li>
               <li>HTML </li>
-              <li>TailwindCSS </li>
               <li>Gatsby </li>
             </ul>
           </article>
