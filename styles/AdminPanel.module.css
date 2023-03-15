@@ -1,0 +1,41 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .article {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .articles {
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: 1px solid transparent;
+    transition: all 1.5s ease;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .article {
+    margin-top: 5rem;
+    padding: 0 2rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .articles {
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: 1px solid transparent;
+    transition: all 1.5s ease;
+  }
+}

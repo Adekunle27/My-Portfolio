@@ -12,12 +12,18 @@
   }
 
   .article h1 {
-    /* color: #fff; */
     font-size: 3rem;
     font-weight: 900;
     letter-spacing: -0.5px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
+  }
+
+  .articles {
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: 1px solid transparent;
+    transition: all 1.5s ease;
   }
 
   .btn {
@@ -32,16 +38,6 @@
     font-family: "Outfit", sans-serif;
     line-height: 1.5;
     cursor: pointer;
-  }
-
-  .p {
-    line-height: 1.1;
-  }
-
-  .article .p_link {
-    margin-top: 1.5rem;
-    font-family: "Montserrat", sans-serif;
-    font-family: "Outfit", sans-serif;
   }
 }
 @media screen and (min-width: 768px) {
@@ -59,7 +55,6 @@
   }
 
   .article h1 {
-    /* color: #fff; */
     font-size: 4rem;
     font-weight: 900;
     letter-spacing: -1.1px;
@@ -67,9 +62,13 @@
       sans-serif;
   }
 
-  .p {
-    line-height: 1.5;
+  .articles {
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: 1px solid transparent;
+    transition: all 1.5s ease;
   }
+
   .btn {
     font-size: 1rem;
     background: var(--color-primary);
@@ -82,11 +81,5 @@
     font-family: "Outfit", sans-serif;
     line-height: 1.5;
     cursor: pointer;
-  }
-
-  .article .p_link {
-    margin-top: 1.5rem;
-    font-family: "Montserrat", sans-serif;
-    font-family: "Outfit", sans-serif;
   }
 }

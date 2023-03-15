@@ -1,6 +1,6 @@
 :root {
   --color-primary: #e8caca;
-  --color-background: #020000;
+  --color-background: #000;
   --color-button: #ccc;
   /* --color-paragraph: #797979;
   --color-button-text: rgb(255, 255, 255);
@@ -10,7 +10,7 @@
 
 [data-theme="dark"] {
   --color-primary: #000;
-  --color-background: #ccc;
+  --color-background: #e8caca;
   --color-button: #280909;
   /* --color-paragraph: #8a8a8a; */
   /* --color-button-text: rgb(0, 0, 0); */
