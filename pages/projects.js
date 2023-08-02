@@ -34,7 +34,7 @@ const Projects = () => {
         >
           <div className={styles.container}>
             <article className={styles.article}>
-              <h1 className="intro__text">Projects.</h1> <br />
+              <h1 className="intro__text"><code>Projects.</code></h1> <br />
               <div className={styles.filter__links}>
                 <button value="all" onClick={handleClick}>
                   {" "}

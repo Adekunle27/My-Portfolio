@@ -34,7 +34,7 @@ const articles = () => {
       >
         <div className={styles.container}>
           <article className={styles.article}>
-            <h1 className="intro__text">Articles & Reads.</h1> <br />
+            <h1 className="intro__text"><code>Articles & Reads.</code></h1> <br />
             <div className={styles.filter__links}>
               <button value="all" onClick={handleClick}>
                 {" "}

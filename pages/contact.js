@@ -29,7 +29,7 @@ const Contact = () => {
       >
         <div className={styles.container}>
           <article className={styles.article}>
-            <h1 className="intro__text">Contact Me.</h1> <br />
+            <h1 className="intro__text"><code>Contact Me.</code></h1> <br />
             <p className={styles.p}>
               Get in touch or shoot me an email on{" "}
               <b>malikabdulazeez27@gmail.com</b>

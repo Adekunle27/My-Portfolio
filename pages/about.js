@@ -19,7 +19,7 @@ const About = () => {
       >
         <div className={styles.container}>
           <article className={styles.article}>
-            <h1 className="intro__text">About Me.</h1> <br />
+            <h1 className="intro__text"><code>About Me.</code></h1> <br />
             <ul className="timeline">
               <li className="mt-2">
                 <p className={styles.p_head}>
