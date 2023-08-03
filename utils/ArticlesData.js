@@ -5,6 +5,7 @@ import node from "../public/Images/node-socket.png";
 import reactimg from "../public/Images/React.jpg";
 import pipeline from "../public/Images/pipeline.png";
 import microfrontend from "../public/Images/microfrontend.jpg";
+import authentication from "../public/Images/authentication.jpg";
 
 const ARTICLE_DATA = [
   {
@@ -13,6 +14,14 @@ const ARTICLE_DATA = [
       "Quick Walkthrough · React Context API is a way to share data between components in a React application without having to pass props down through multiple...",
     link: "https://abdulmalik.hashnode.dev/getting-started-with-react-context-api",
     imageUrl: context,
+    type: "article",
+  },
+  {
+    title: "Implementing Authentication and Authorization using Context API in Next.js",
+    description:
+      "In today's digital landscape, web applications require robust security measures to protect sensitive user data and ensure proper access control. Authentication and authorization are fundamental components of any secure web application. Authentication is the process of verifying a user's identity, ",
+    link: "https://abdulmalik.hashnode.dev/implementing-authentication-and-authorization-using-context-api-in-nextjs-part-1",
+    imageUrl: authentication,
     type: "article",
   },
   {
