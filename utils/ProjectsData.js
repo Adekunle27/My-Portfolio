@@ -8,6 +8,9 @@ import quiz from "../public/Images/quiz.png";
 import invoice from "../public/Images/invoice.png";
 import event from "../public/Images/event.png";
 import crypto from "../public/Images/cryptotracker.png";
+import priv from "../public/Images/priv.PNG";
+import privacy from "../public/Images/privacy.PNG";
+import hays from "../public/Images/hays.PNG";
 
 const PROJECTS_DATA = [
   {
@@ -24,15 +27,16 @@ const PROJECTS_DATA = [
   },
 
   {
-    title: "Netflix Clone",
-    description: "A Clone of Netflix using React, Context API...",
-    github: "https://github.com/Adekunle27/Netflix-clone",
+    title: "Hays Woodworking",
+    description:
+      "This Project tracks the various COVID Cases recorded in the countries of the world",
+    link: "https://www.hayswoodworking.com/",
+    github: "https://github.com/Adekunle27",
     about:
-      "A Clone of Netflix using React, Context API which fetches data from TMDB API and It also has a login page which authenticates users with Firebase Authentication. It also has a payment page which uses Stripe API for payment.",
-    link: "https://netflixclone-56432.web.app/",
-    imageUrl: netflix,
+      "Hays Woodworking offers custom millwork, kitchen renovations and bespoke furniture. Combining traditional craftsmanship with modern techniques, we create unique, high-quality pieces for residential and commercial projects.",
+    imageUrl: hays,
     type: "projects",
-    technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
+    technologies: ["React", "ChartJS", "Material UI", "Javascript"],
   },
   {
     title: "Shopp",
@@ -46,13 +50,14 @@ const PROJECTS_DATA = [
     technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
   },
   {
-    title: "Quizly",
-    description: "A fun Quiz Application with different option.",
-    github: "https://github.com/Adekunle27/Quizly",
+    title: "PrivacyPal",
+    description:
+      "A personal data‑audit tool for desktop/mobile. Scans your online accounts",
+    github: "https://github.com/Adekunle27/privacy-pal",
     about:
-      "This is a quiz application built with React and TailwindCSS. You can select the category of questions you want to answer, the number of questions and the difficulty level of the questions. It also has a theme toggler which is enabled by TailwindCSS.  ",
-    link: "https://quizly-psi.vercel.app/",
-    imageUrl: quiz,
+      "A personal data‑audit tool for desktop/mobile. Scans your online accounts (social media, data brokers, breach lists). flags devices/websites that leaked your data, and helps initiate privacy requests — all while keeping data local to you.  ",
+    link: "https://privacy-pal-pulse-wave.vercel.app/",
+    imageUrl: priv,
     type: "projects",
     technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
   },
@@ -67,6 +72,17 @@ const PROJECTS_DATA = [
     imageUrl: covid,
     type: "projects",
     technologies: ["React", "ChartJS", "Material UI", "Javascript"],
+  },
+  {
+    title: "Netflix Clone",
+    description: "A Clone of Netflix using React, Context API...",
+    github: "https://github.com/Adekunle27/Netflix-clone",
+    about:
+      "A Clone of Netflix using React, Context API which fetches data from TMDB API and It also has a login page which authenticates users with Firebase Authentication. It also has a payment page which uses Stripe API for payment.",
+    link: "https://netflixclone-56432.web.app/",
+    imageUrl: netflix,
+    type: "projects",
+    technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
   },
   {
     title: "Cryptocurrency Tracker",

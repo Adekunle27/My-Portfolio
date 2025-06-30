@@ -224,4 +224,8 @@
     line-height: 1.5;
     /* color: #fff; */
   }
+
+  .techlist {
+    text-decoration: underline;
+  }
 }

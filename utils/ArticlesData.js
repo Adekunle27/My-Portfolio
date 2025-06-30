@@ -6,22 +6,42 @@ import reactimg from "../public/Images/React.jpg";
 import pipeline from "../public/Images/pipeline.png";
 import microfrontend from "../public/Images/microfrontend.jpg";
 import authentication from "../public/Images/authentication.jpg";
+import opensource from "../public/Images/opensource.jpg";
+import graphql from "../public/Images/graphql.png";
 
 const ARTICLE_DATA = [
   {
     title: "Getting started with React Context API",
     description:
-      "Quick Walkthrough · React Context API is a way to share data between components in a React application without having to pass props down through multiple...",
+      "Quick Walkthrough · React Context API is a way to share data between components in a React application without having to pass props down through multiple levels of the component tree. This can be particularly useful for sharing data that is required by many components, such as the currently authenticated user or the application's theme. In this article, we will go over the basics of the React Context API and how to use it in a React application...",
     link: "https://abdulmalik.hashnode.dev/getting-started-with-react-context-api",
     imageUrl: context,
     type: "article",
   },
   {
-    title: "Implementing Authentication and Authorization using Context API in Next.js",
+    title:
+      "Implementing Authentication and Authorization using Context API in Next.js",
     description:
       "In today's digital landscape, web applications require robust security measures to protect sensitive user data and ensure proper access control. Authentication and authorization are fundamental components of any secure web application. Authentication is the process of verifying a user's identity, ",
     link: "https://abdulmalik.hashnode.dev/implementing-authentication-and-authorization-using-context-api-in-nextjs-part-1",
     imageUrl: authentication,
+    type: "article",
+  },
+  {
+    title: "Revolutionize Your Workflow with Open Source Software - Must Read!",
+    description:
+      "Open source software (OSS) became a game-changer in my workflow, how I started contributing, the tools I now swear by, and how you, too, can transform your dev journey (and career) by embracing the open-source way.",
+    link: "https://abdulmalik.hashnode.dev/revolutionize-your-workflow-with-open-source-software-must-read",
+    imageUrl: opensource,
+    type: "article",
+  },
+  {
+    title:
+      "Unleash the Power of GraphQL APIs: Create Stunning Frontends with Apollo Client",
+    description:
+      "As a frontend engineer, few things excite me more than creating fast, interactive UIs that talk to powerful backends. One of the most transformative experiences I’ve had in recent years was integrating GraphQL into my frontend workfl...",
+    link: "https://abdulmalik.hashnode.dev/unleash-the-power-of-graphql-apis-create-stunning-frontends-with-apollo-client",
+    imageUrl: graphql,
     type: "article",
   },
   {
@@ -137,14 +157,6 @@ const ARTICLE_DATA = [
     description: "I think about and enjoy very boring CSS stuf...",
     link: "https://hankchizljaw.com/wrote/a-modern-css-reset/",
     imageUrl: "https://i.ibb.co/RPkXPLN/css-declaration-small.png",
-    type: "reading",
-  },
-  {
-    title: "Usability & Web Accessibility",
-    description: "Usability & Web Accessibility",
-    link: "https://usability.yale.edu/web-accessibility/articles",
-    imageUrl:
-      "https://i.ibb.co/1MQyX2F/Handicapped-Wheelchair-Accessible-Sticker.png",
     type: "reading",
   },
 ];

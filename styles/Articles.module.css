@@ -51,6 +51,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
+    /* border: 10px solid red; */
   }
 
   .articles__container:hover {
