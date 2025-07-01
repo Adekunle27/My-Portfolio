@@ -11,6 +11,7 @@ import crypto from "../public/Images/cryptotracker.png";
 import priv from "../public/Images/priv.jpg";
 // import privacy from "../public/Images/privacy.PNG";
 import hays from "../public/Images/hays.jpg";
+import oau from "../public/Images/oau.jpg";
 
 const PROJECTS_DATA = [
   {
@@ -37,6 +38,17 @@ const PROJECTS_DATA = [
     imageUrl: hays,
     type: "projects",
     technologies: ["React", "ChartJS", "Material UI", "Javascript"],
+  },
+  {
+    title: "Staff Directory",
+    description: "An E-commerce Application For Buying Cotton Products.",
+    github: "https://github.com/Adekunle27/Staff-Directory",
+    about:
+      "A clean, responsive, and user-friendly staff directory platform built to help Obafemi Awolowo University(OAU) manage and access employee profiles seamlessly. This web application allows users to search, filter, and view staff information such as names, roles, departments, contact details, and profile photos.",
+    link: "https://staffdirectory.oauife.edu.ng/",
+    imageUrl: oau,
+    type: "projects",
+    technologies: ["React", "Redux Saga", "Javascript", "Firebase"],
   },
   {
     title: "Shopp",
