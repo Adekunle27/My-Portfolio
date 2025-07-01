@@ -8,9 +8,9 @@ import quiz from "../public/Images/quiz.png";
 import invoice from "../public/Images/invoice.png";
 import event from "../public/Images/event.png";
 import crypto from "../public/Images/cryptotracker.png";
-import priv from "../public/Images/priv.png";
+import priv from "../public/Images/priv.jpg";
 // import privacy from "../public/Images/privacy.PNG";
-import hays from "../public/Images/hays.png";
+import hays from "../public/Images/hays.jpg";
 
 const PROJECTS_DATA = [
   {
