@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import NavItem from "./NavItem";
 import { motion } from "framer-motion";
+import { useTheme } from "../utils/useTheme";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
@@ -14,35 +15,11 @@ const MENU_LIST = [
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
   const [activeIdx, setActiveIdx] = useState(-1);
-
-  const [darkTheme, setDarkTheme] = useState(undefined);
+  const { theme, toggleTheme, isDark } = useTheme();
 
   const handleToggle = (event) => {
-    setDarkTheme(event.target.checked);
+    toggleTheme();
   };
-
-  useEffect(() => {
-    if (darkTheme !== undefined) {
-      if (darkTheme) {
-        // Set value of  darkmode to dark
-        document.documentElement.setAttribute("data-theme", "dark");
-        window.localStorage.setItem("theme", "dark");
-      } else {
-        // Set value of  darkmode to light
-        document.documentElement.removeAttribute("data-theme");
-        window.localStorage.setItem("theme", "light");
-      }
-    }
-  }, [darkTheme]);
-
-  useEffect(() => {
-    const root = window.document.documentElement;
-    const initialColorValue = root.style.getPropertyValue(
-      "--initial-color-mode"
-    );
-    // Set initial darkmode to light
-    setDarkTheme(initialColorValue === "dark");
-  }, []);
 
   return (
     <>
@@ -65,12 +42,12 @@ const Navbar = () => {
             <div></div>
           </div>
           <div>
-            {darkTheme !== undefined && (
+            {theme !== undefined && (
               <form action="#">
                 <label className="switch">
                   <input
                     type="checkbox"
-                    checked={darkTheme}
+                    checked={isDark}
                     onChange={handleToggle}
                   />
                   <span className="slider"></span>

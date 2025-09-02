@@ -19,7 +19,10 @@ const About = () => {
       >
         <div className={styles.container}>
           <article className={styles.article}>
-            <h1 className="intro__text"><code>About Me.</code></h1> <br />
+            <h1 className="intro__text">
+              <code>About Me.</code>
+            </h1>{" "}
+            <br />
             <ul className="timeline">
               <li className="mt-2">
                 <p className={styles.p_head}>
@@ -65,6 +68,8 @@ const About = () => {
               <li>Javascript </li>
               <li>Typescript </li>
               <li>React Native </li>
+              <li>GraphQL </li>
+              <li>Apollo Client </li>
               <li>Vue </li>
               <li>Nuxt </li>
               <li>NodeJs </li>
